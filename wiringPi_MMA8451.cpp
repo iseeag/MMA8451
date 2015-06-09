@@ -68,12 +68,12 @@ int main() {
         printf("MMA8451 activated! \n");
     }
     else {
-        printf("No MMA8451 detected. \n");
+        printf("Error Exit. \n");
         return -1;
     }
     // debugging 
-    printf("fd: %6hd \n", fd);
-    foread(); 
+    // printf("fd: %6hd \n", fd);
+    // foread(); 
 
     // update the gs
     while(true) {
@@ -117,6 +117,5 @@ void foread() {
         reg8=read8(i);
         printf("%04x list: %6hd 0x%.2X %s\n", i, reg8,reg8,byte_to_binary(reg8));
     }
-    printf("range: %s\n", byte_to_binary(getRange()));
 }
 
