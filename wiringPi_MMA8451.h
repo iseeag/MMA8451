@@ -1,8 +1,6 @@
-// Based on MPU6050.h and Adafruit_MMA8451.h
-// hope it works :)
 /* ============================================
-I2Cdev device library code is placed under the MIT license
-Copyright (c) 2012 Jeff Rowberg
+Copyright (c)2015 iseeag 
+first release 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,6 +21,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ===============================================
 */
+
+
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
